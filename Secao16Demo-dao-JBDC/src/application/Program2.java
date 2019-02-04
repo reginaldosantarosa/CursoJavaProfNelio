@@ -14,16 +14,14 @@ public class Program2 {
 		
 		DepartmentDao  departmentDao =  DaoFactory.createDepartmentDao();
 		
-		/*
+		
 		System.out.println("\n\n=== teste 1: seller insert======");
 		Department newDepartment = new Department(null, "Vendas");
 		
 		departmentDao.insert(newDepartment);
 		
 		System.out.println("Inserido new id: " + newDepartment.getId());
-		*/
 		
-		/*
 		System.out.println("\n\n=== teste 2: department update ======");
 		
 		Department dp = new Department(7,null); 
@@ -32,15 +30,14 @@ public class Program2 {
 		departmentDao.update(dp);
 		System.out.println("Update com sucesso!!! ");
 			
-		*/
 		
-
+/*
 		
 		System.out.println("\n\n=== teste 3: seller delette  ======");		
-		int n = 7;		
+		int n = ;		
 		departmentDao.deleteById(n);
 		System.out.println("Deletado !!!");
-		
+		*/
 		
 		
 		System.out.println("\n\n=== teste 4: seller findAll ========");
@@ -54,8 +51,8 @@ public class Program2 {
 		
 				
 		System.out.println("\n\n=== teste 5: seller findById======");
-		Department dp;
-		dp = departmentDao.findById(7);
+		Department dp1;
+		dp1 = departmentDao.findById(7);
 		
 		System.out.println(dp);
 		}
